@@ -30,3 +30,5 @@ function makeChannel(message){
 
     server.createChannel(name, "text");
 }
+
+client.login(process.env.BOT_TOKEN);
